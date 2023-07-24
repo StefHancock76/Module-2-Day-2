@@ -37,3 +37,23 @@ for (let item of students)
    {console.log(item)}
 for (let item in students2)
    {console.log(students2[item]);}
+   
+   
+   let q1test = 15;
+   for(q1test=1;q1test<=100;q1test++){
+     if(q1test%3==0 || q1test%5==0){
+       console.log(q1test)
+     }
+   }
+
+
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+console.log(greeting);
