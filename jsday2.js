@@ -1,4 +1,4 @@
-let budget = 20;
+let budget = 1000;
 
 if(budget > 50){
     console.log("Ride a taxi");
@@ -29,17 +29,11 @@ if(budget > 50){
 
 
 
-//let students = ["John", "Kyle", "Tom", "Steve", "Mildred"]
-//let students2 = {
-//stu1: "Haoyu",
-//stu2:"Leo",
-//}
-//for (let item in students){
-//console.log(item)
-//}
-//for (let item of students){
-//console.log(item)
-//}
-//for (let item in students2){
-//console.log(students2[item]);
-//}
+let students = ["John", "Kyle", "Tom", "Steve", "Mildred"]
+let students2 = {stu1: "Haoyu", stu2:"Leo",}
+for (let item in students)
+   {console.log(item)}
+for (let item of students)
+   {console.log(item)}
+for (let item in students2)
+   {console.log(students2[item]);}
